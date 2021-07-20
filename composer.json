@@ -1,0 +1,31 @@
+{
+    "name": "amuone/php-crypt",
+    "description": "The PHP Encryptor and Decryptor",
+    "license": "MIT",
+    "homepage": "https://amuone.com",
+    "support": {
+        "issues": "https://github.com/amuone/php-crypt/issues",
+        "source": "https://github.com/amuone/php-crypt"
+    },
+    "authors": [
+        {
+            "name": "Amuone",
+            "email": "support@amuone.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amuone\\Crypt\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
