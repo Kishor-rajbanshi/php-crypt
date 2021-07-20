@@ -1,2 +1,2 @@
-# crypt
-The Encryptor and Decryptor.
+# php-crypt
+The PHP Encryptor and Decryptor.
